@@ -5,14 +5,11 @@ import java.io.*;
 /**
  * Created by chenc on 3/6/2017.
  */
-public class Prob05
-{
-    public static void main(String[] args) throws IOException
-    {
+public class Prob05 {
+    public static void main(String[] args) throws IOException {
         Scanner in = new Scanner(new File("inputs/prob05.dat"));
         int sets = new Integer(in.nextLine());
-        while(sets-->0)
-        {
+        while(sets-->0) {
             String s = in.nextLine();
             double d = new Double(s.substring(1));
             System.out.println("Total of the bill: " + d);

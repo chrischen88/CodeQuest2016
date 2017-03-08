@@ -4,14 +4,11 @@ import java.io.*;
 /**
  * Created by 18chenc on 2/27/2017.
  */
-public class Prob02
-{
-    public static void main(String[] args) throws IOException
-    {
+public class Prob02 {
+    public static void main(String[] args) throws IOException {
         Scanner in = new Scanner(new File("inputs/prob02.dat"));
         int sets = new Integer(in.nextLine());
-        while(sets-->0)
-        {
+        while(sets-->0) {
             String s = in.nextLine();
             System.out.println(s);
             int total = (int)(new Double(s.substring(1))*100);
